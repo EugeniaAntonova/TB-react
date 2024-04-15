@@ -1,0 +1,416 @@
+.cloud,
+.ball {
+    position: absolute;
+}
+
+.soaring {
+    animation: soaring 6s linear infinite;
+}
+
+.cloud {
+    animation: side-to-side 15s linear infinite;
+}
+
+.cloud1 {
+    top: -5%;
+    left: 0;
+    animation-duration: 13s;
+}
+
+.cloud2 {
+    top: 41%;
+    left: -49px;
+    animation-duration: 11s;
+}
+
+.cloud3 {
+    top: 70%;
+    left: 16%;
+    z-index: 5;
+    animation-duration: 14s;
+}
+
+.cloud4 {
+    top: 82%;
+    left: -66px;
+    animation-duration: 10s;
+
+}
+
+.cloud5 {
+    top: -4%;
+    left: auto;
+    right: -22px;
+    z-index: 2;
+    animation-duration: 9s;
+}
+
+.cloud6 {
+    top: 50%;
+    left: auto;
+    right: -51px;
+}
+
+.cloud7 {
+    top: 84%;
+    left: auto;
+    right: -32px;
+    animation-duration: 16s;
+}
+
+.ball1 {
+    width: 56px;
+    top: 14%;
+    left: 0;
+    z-index: 5;
+    animation-duration: 8s;
+}
+
+.ball2 {
+    width: 43px;
+    top: 60%;
+    left: -22px;
+    z-index: 1;
+    animation-duration: 7s;
+}
+
+.ball3 {
+    width: 31px;
+    top: 315px;
+    left: 61px;
+    z-index: 1;
+    animation-duration: 5s;
+}
+
+.ball4 {
+    width: 49px;
+    top: 85px;
+    right: -35px;
+    z-index: 1;
+    animation-duration: 9s;
+}
+
+.ball5 {
+    width: 60px;
+    top: 12%;
+    right: 24px;
+}
+
+.ball6 {
+    width: 55px;
+    top: 68%;
+    right: 20px;
+    animation-duration: 10s;
+
+}
+
+.cloud8 {
+    top: -2%;
+    right: -10%;
+    z-index: 1;
+}
+
+.cloud9 {
+    top: 41%;
+    left: -12%;
+}
+
+.cloud10 {
+    top: 47%;
+    right: -12%;
+}
+
+.cloud11 {
+    top: 78%;
+    left: -7%;
+}
+
+.cloud12 {
+    bottom: -8%;
+    right: -12%;
+}
+
+.cloud13 {
+    top: 40%;
+    left: -5%;
+}
+
+.cloud14 {
+    right: -22%;
+    top: 6%;
+    z-index: 2;
+}
+
+.ball7 {
+    top: 30%;
+    left: -10%;
+    animation-duration: 8s;
+}
+
+.ball8 {
+    top: 68%;
+    left: -10%;
+}
+
+.ball9 {
+    top: -2%;
+    right: 4%;
+    animation-duration: 7s;
+}
+
+.ball10 {
+    top: 45%;
+    right: -10%;
+    animation-duration: 9s;
+}
+
+.ball11 {
+    top: 44%;
+    left: 0%;
+    animation-duration: 12s;
+}
+
+.ball12 {
+    right: 6%;
+    top: 1%;
+    animation-duration: 10s;
+}
+.ball13 {
+    bottom: 16%;
+    left: -8%;
+}
+.ball14 {
+    top: 2%;
+    right: -10%;
+    animation-duration: 10s;
+    animation-direction: reverse;
+}
+.cloud16 {
+    bottom: 0%;
+    left: -28%;
+}
+.cloud17 {
+    top: 0%;
+    right: -33%;
+}
+.winners .ball7 {
+    left: 1%;
+}
+.winners .ball8 {
+    left: 3%;
+}
+.winners .ball9 {
+    top: 4%;
+    right: 12%;
+}
+.winners .ball10 {
+    right: 8%;
+}
+.winners .cloud8 {
+    top: 5%;
+}
+.winners .cloud9 {
+    top: 37%;
+    left: -2%;
+}
+.winners .cloud11 {
+    left: 4%;
+}
+.winners .cloud12 {
+    bottom: 1%;
+}
+
+@media (min-width: 820px) {
+    .ball1 {
+        width: 190px;
+    }
+
+    .ball2 {
+        width: 131px;
+    }
+
+    .ball3 {
+        width: 90px;
+        left: -18%;
+        top: 30%;
+    }
+
+    .ball4 {
+        width: 97px;
+        top: 0%;
+        right: -87px;
+
+    }
+
+    .ball5 {
+        width: 180px;
+    }
+
+    .ball6 {
+        width: 155px;
+
+    }
+    .ball13 {
+        width: 94px;
+        bottom: 22%;
+        left: -16%;
+    }
+    .ball14 {
+        width: 115px;
+        right: 0%;
+    }
+
+    .cloud12 {
+        bottom: 0;
+        right: -12%;
+    }
+    .cloud16 {
+        width: 517px;
+        bottom: -10%;
+        left: -67%;
+    }
+    .cloud17 {
+        width: 517px;
+        top: -8%;
+        right: -29%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .cloud1 {
+        top: -5%;
+        left: -174px;
+        z-index: 5;
+    }
+
+    .cloud2 {
+        top: 37%;
+        left: -335px;
+    }
+
+    .cloud3 {
+        top: 56%;
+        left: -35%;
+    }
+
+    .cloud5 {
+        top: -16%;
+        right: -91px;
+    }
+
+    .cloud6 {
+        top: 31%;
+        left: auto;
+        right: -251px;
+        width: 400px;
+    }
+
+    .ball7 {
+        top: 8%;
+        left: -24%;
+    }
+
+    .ball8 {
+        top: 68%;
+        left: -23%;
+    }
+
+    .cloud9 {
+        top: 16%;
+        left: -40%;
+        z-index: 2;
+    }
+
+    .cloud13 {
+        top: 31%;
+        left: -33%;
+    }
+
+    .cloud14 {
+        right: -28%;
+        top: 20%;
+    }
+
+    .ball11 {
+        top: 50%;
+        left: -19%;
+    }
+
+    .ball12 {
+        right: -10%;
+        top: 10%;
+    }
+
+    .cloud10 {
+        top: 58%;
+        right: -60%;
+    }
+
+    .cloud14 {
+        right: -28%;
+        top: 20%;
+    }
+
+    .cloud7 {
+        width: 450px;
+        top: 66%;
+        right: -137px;
+        z-index: 5;
+    }
+
+    .cloud8 {
+        top: 7%;
+        right: -31%;
+        z-index: 1;
+    }
+
+    .cloud11 {
+        top: 73%;
+        left: -33%;
+    }
+    .winners .ball7 {
+        top: 24%;
+        left: -21%;
+    }
+    .winners .ball8 {
+        left: -20%;
+    }
+    .winners .ball9 {
+        top: 4%;
+        right: -18%;
+    }
+    .winners .ball10 {
+        right: -2%;
+    }
+    .winners .cloud9 {
+        top: 37%;
+        left: -44%;
+    }
+    .winners .cloud11 {
+        left: -36%;
+    }
+}
+
+@keyframes soaring {
+    0% {
+        transform: rotate(0deg) translate(-7px) rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg) translate(-7px) rotate(-360deg);
+    }
+}
+
+@keyframes side-to-side {
+    0% {
+        transform: translateX(-10px);
+    }
+
+    50% {
+        transform: translateX(15px);
+    }
+
+    100% {
+        transform: translateX(-10px);
+    }
+}
