@@ -93,23 +93,22 @@ img {
 .inline-link {
     color: inherit;
     transition: 0.3s ease-in-out;
-    transition-property: color;
+    transition-property: opacity;
 }
 
 @media (hover: hover) {
     .inline-link:hover {
         text-decoration: none;
-        color: #fff;
     }
 }
 
 .inline-link:active {
     text-decoration: none;
-    color: #667ca1;
+    opacity: 0.9;
 }
 
 .inline-link:visited {
-    color: #fff;
+    color: inherit;
 }
 
 .btn-link {
@@ -151,6 +150,17 @@ img {
 
 .btn-link_white:active {
     box-shadow: 0 2px 7px rgba(255 255 255 / .8);
+}
+
+.btn-link.decorated svg,
+.inline-link.decorated svg {
+    min-width: 12px;
+    width: 1em;
+    display: block;
+}
+
+.inline-link.decorated {
+    line-height: 1;
 }
 
 @media (min-width: 820px) {
